@@ -1,6 +1,10 @@
 // test for finding the sum of element indexes ,
 // where the sum of all digits before the element equals
 // the sum of all digits after the element
+const fs = require('fs');
+
+//result arraySumIndex on example equals 9
+// const example = [-7,1,5,2,-4,3,0];
 
 function arraySumIndex(array) {
     let sumOfArray = array.reduce((res, el) => res + el, 0);
@@ -20,3 +24,11 @@ function arraySumIndex(array) {
     }
     return -1;
 }
+
+fs.readFile('./bigarray.txt', (err,data) => {
+    if (err) throw err;
+    const array = data.toString().split(',');
+    const finalArray = array.map(string => parseInt(string));
+    console.log(arraySumIndex(finalArray));
+});
+
