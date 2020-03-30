@@ -2,7 +2,7 @@
 # Here you can find test tasks from different companies
 
 # Task №1
-We have this big list of (signed) integers. <br> 
+We have this big list of (signed) integers.<br> 
 We are interested in finding every index &quot;idx&quot; (zero-based, of course) in this list, that has the following <br>
 property: <br>
 The sum of the integers preceding (but not including) index idx is equal to the sum of the integers <br>
