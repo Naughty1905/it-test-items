@@ -17,3 +17,8 @@ For reference, given the array [-7,1,5,2,-4,3,0], the answer we are looking for
 6 have the property we are looking for  <br>
 (-7 + 1 + 5 == -4 + 3 + 0  and  -7 + 1 + 5 + 2 + -4 + 3 == 0) <br>
 and 3 + 6 = 9. <br>
+
+# Task №2
+Function for reversing the array value <br>
+
+
