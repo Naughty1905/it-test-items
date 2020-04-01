@@ -11,17 +11,6 @@ function arraySumIndex(array) {
     let iterateSum = 0;
     let counterOfIndex = 0;
 
-    // wrong method and i dont know why
-    // let counterOfIndex = array.reduce((res, el) => {
-    //         sumOfArray -= el;
-    //         if (iterateSum === sumOfArray) {
-    //             res += array.indexOf(el);
-    //         }
-    //         iterateSum += el;
-    //         return res;
-    //     }
-    //     , 0);
-
     array.forEach((el,index) => {
         sumOfArray -= el;
         if (iterateSum === sumOfArray){
