@@ -26,3 +26,21 @@ In this kata, you are asked to square every digit of a number.<br>
 For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.<br>
 Note: The function accepts an integer and returns an integer.<br>
 
+# Task №4
+Create a moreZeros function which will receive a string for input, and return an array containing only the characters<br>
+from that string whose binary representation of its ASCII value consists of more zeros than ones.<br>
+
+You should remove any duplicate characters, keeping the first occurence of any such duplicates, so they are in the same<br>
+order in the final array as they first appeared in the input string.<br>
+
+Examples<br>
+
+'abcde' === ["1100001", "1100010", "1100011", "1100100", "1100101"]
+               True       True       False      True       False
+
+        --> ['a','b','d']
+
+'DIGEST'--> ['D','I','E','T']
+All input will be valid strings of length > 0. Leading zeros in binary should not be counted.<br>
+
+
