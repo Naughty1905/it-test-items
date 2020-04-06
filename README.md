@@ -57,3 +57,35 @@ Examples:<br>
 cakes({flour: 500, sugar: 200, eggs: 1}, {flour: 1200, sugar: 1200, eggs: 5, milk: 200}); <br>
 // must return 0
 cakes({apples: 3, flour: 300, sugar: 150, milk: 100, oil: 100}, {sugar: 500, flour: 2000, milk: 2000}); <br>
+
+# Task №5
+My little sister came back home from school with the following task: given a squared sheet of paper she has to cut it in<br> pieces which, when assembled, give squares the sides of which form an increasing sequence of numbers. At the beginning it<br> was lot of fun but little by little we were tired of seeing the pile of torn paper. So we decided to write a program that<br> could help us and protects trees.
+
+Task<br>
+Given a positive integral number n, return a strictly increasing sequence (list/array/string depending on the language)<br> of numbers, so that the sum of the squares is equal to n².<br>
+
+If there are multiple solutions (and there will be), return as far as possible the result with the largest possible values:
+
+Examples<br>
+decompose(11) must return [1,2,4,10]. Note that there are actually two ways to decompose 11², 11² = 121 = 1 + 4 + 16 +<br> 100 = 1² + 2² + 4² + 10² but don't return [2,6,9], since 9 is smaller than 10.<br>
+
+For decompose(50) don't return [1, 1, 4, 9, 49] but [1, 3, 5, 8, 49] since [1, 1, 4, 9, 49] doesn't form a strictly<br> increasing sequence.<br>
+
+Note<br>
+Neither [n] nor [1,1,1,…,1] are valid solutions. If no valid solution exists, return nil, null, Nothing, None (depending<br> on the language) or "[]" (C) ,{} (C++), [] (Swift, Go).<br>
+
+The function "decompose" will take a positive integer n and return the decomposition of N = n² as:<br>
+
+[x1 ... xk] or<br>
+"x1 ... xk" or<br>
+Just [x1 ... xk] or<br>
+Some [x1 ... xk] or<br>
+{x1 ... xk} or<br>
+"[x1,x2, ... ,xk]"<br>
+depending on the language (see "Sample tests")<br>
+
+Note for Bash<br>
+decompose 50 returns "1,3,5,8,49"<br>
+decompose 4  returns "Nothing"<br>
+Hint<br>
+Very often xk will be n-1.<br>
