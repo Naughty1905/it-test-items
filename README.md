@@ -1,5 +1,5 @@
 # it-test-items
-# Here you can find test tasks from different companies
+# Here you can find various programming tasks and their solutions
 
 # Task №1
 We have this big list of (signed) integers.<br> 
