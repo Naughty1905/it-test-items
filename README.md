@@ -163,3 +163,12 @@ validSolution([<br>
   [2, 8, 7, 4, 1, 9, 6, 3, 5],<br>
   [3, 0, 0, 4, 8, 1, 1, 7, 9]<br>
 ]); // => false<br>
+
+# Task №10
+There is a secret string which is unknown to you. Given a collection of random triplets from the string, recover the original string.
+
+A triplet here is defined as a sequence of three letters such that each letter occurs somewhere before the next in the given string. "whi" is a triplet for the string "whatisup".<br>
+
+As a simplification, you may assume that no letter occurs more than once in the secret string.<br>
+
+You can assume nothing about the triplets given to you other than that they are valid triplets and that they contain sufficient<br> information to deduce the original string. In particular, this means that the secret string will never contain letters that do not<br> occur in one of the triplets given to you.<br>
