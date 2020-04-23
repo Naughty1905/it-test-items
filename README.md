@@ -215,9 +215,9 @@ For the purpose of this Kata, a year is 365 days and a day is 24 hours.<br>
 Note that spaces are important.<br>
 
 Detailed rules<br>
-The resulting expression is made of components like 4 seconds, 1 year, etc. In general, a positive integer and one of the valid<br> units of time, separated by a space. The unit of time is used in plural if the integer is greater than 1.<br><br>
+The resulting expression is made of components like 4 seconds, 1 year, etc. In general, a positive integer and one of the valid<br> units of time, separated by a space. The unit of time is used in plural if the integer is greater than 1.<br>
 
-The components are separated by a comma and a space (", "). Except the last component, which is separated by " and ", just like it<br> would be written in English.<br>
+The components are separated by a comma and a space (", "). Except the last component, which is separated by " and ", just like<br>    it would be written in English.<br>
 
 A more significant units of time will occur before than a least significant one. Therefore, 1 second and 1 year is not correct, but<br> 1 year and 1 second is.<br>
 
