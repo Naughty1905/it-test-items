@@ -200,5 +200,30 @@ Detective, we count on you!<br>
 
 For C# user: Do not use Mono. Mono is too slower when run your code.<br>
 
+# Task №12
+Your task in order to complete this Kata is to write a function which formats a duration, given as a number of seconds, in a<br>   human-friendly way.<br>
 
+The function must accept a non-negative integer. If it is zero, it just returns "now". Otherwise, the duration is expressed as a<br> combination of years, days, hours, minutes and seconds.<br>
+
+It is much easier to understand with an example:<br>
+```
+formatDuration(62)    // returns "1 minute and 2 seconds"
+formatDuration(3662)  // returns "1 hour, 1 minute and 2 seconds"
+```
+For the purpose of this Kata, a year is 365 days and a day is 24 hours.<br>
+
+Note that spaces are important.<br>
+
+Detailed rules<br>
+The resulting expression is made of components like 4 seconds, 1 year, etc. In general, a positive integer and one of the valid<br> units of time, separated by a space. The unit of time is used in plural if the integer is greater than 1.<br><br>
+
+The components are separated by a comma and a space (", "). Except the last component, which is separated by " and ", just like it<br> would be written in English.<br>
+
+A more significant units of time will occur before than a least significant one. Therefore, 1 second and 1 year is not correct, but<br> 1 year and 1 second is.<br>
+
+Different components have different unit of times. So there is not repeated units like in 5 seconds and 1 second.<br>
+
+A component will not appear at all if its value happens to be zero. Hence, 1 minute and 0 seconds is not valid, but it should be<br> just 1 minute.<br>
+
+A unit of time must be used "as much as possible". It means that the function should not return 61 seconds, but 1 minute and 1<br> second instead. Formally, the duration specified by of a component must not be greater than any valid more significant unit of time.<br>
 
