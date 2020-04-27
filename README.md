@@ -276,4 +276,10 @@ mix(s1, s2) --> "1:mmmmmm/E:nnnnnn/1:aaaa/1:hhh/2:yyy/2:dd/2:ff/2:ii/2:rr/E:ee/E
 # Task №14
 Проверка правильности расстановки фигурных скобок в строке.<br>
 
-
+# Task №15
+Given a string which may include opening or closing round brackets, can you tell whether the string contains a balanced pair(s) of<br> round brackets, that is there are no brackets which are either opened & not closed, or vice versa. Opening round brackets always<br> have to come before closing bracket.<br>
+```
+Test.assertEquals(isBalanced("hi)("),false)
+Test.assertEquals(isBalanced("hi(hi)"),true)
+Test.assertEquals(isBalanced("("),false)
+```
