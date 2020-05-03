@@ -317,7 +317,7 @@ See here for more examples.<br>
 
 # Task №17
 Pascal's Triangle<br>
-<img src="http://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif">
+<img src="http://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif"><br>
 Wikipedia article on Pascal's Triangle: http://en.wikipedia.org/wiki/Pascal's_triangle<br>
 
 Write a function that, given a depth (n), returns a single-dimensional array/list representing Pascal's Triangle from the first to<br> the n-th level.<br>
