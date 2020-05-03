@@ -314,3 +314,15 @@ sum(80) // 15796476
 sum(100) // 190569292
 ```
 See here for more examples.<br>
+
+# Task №17
+Pascal's Triangle<br>
+<img src="http://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif">
+Wikipedia article on Pascal's Triangle: http://en.wikipedia.org/wiki/Pascal's_triangle<br>
+
+Write a function that, given a depth (n), returns a single-dimensional array/list representing Pascal's Triangle from the first to<br> the n-th level.<br>
+
+For example:<br>
+```
+pascalsTriangle(4) == [1, 1, 1, 1, 2, 1, 1, 3, 3, 1]
+```
