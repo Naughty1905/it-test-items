@@ -349,3 +349,16 @@ The code would be called like so:<br>
 var result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", "!"])
 // result should == "apples, pears\ngrapes\nbananas"
 ```
+
+# Task №19
+Task<br>
+You are at position [0, 0] in maze NxN and you can only move in one of the four cardinal directions (i.e. North, East, South, West).<br> Return ```true``` if you can reach position [N-1, N-1] or ```false``` otherwise.<br>
+
+Empty positions are marked ```.```. Walls are marked ```W```. Start and exit positions are empty in all test cases.<br>
+
+Path Finder Series:<br>
+<a href="https://www.codewars.com/kata/5765870e190b1472ec0022a2">#1: can you reach the exit?</a><br>
+<a href="https://www.codewars.com/kata/57658bfa28ed87ecfa00058a">#2: shortest path</a><br>
+<a href="https://www.codewars.com/kata/576986639772456f6f00030c">#3: the Alpinist</a><br>
+<a href="https://www.codewars.com/kata/5a0573c446d8435b8e00009f">#4: where are you?</a><br>
+<a href="https://www.codewars.com/kata/5a05969cba2a14e541000129">#5: there's someone here</a><br>
