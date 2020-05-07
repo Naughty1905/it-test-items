@@ -6,8 +6,7 @@ function pathFinder(maze) {
         return (pos+1)%width!==0 && solve(pos+1) ||
             solve(pos+width) ||
             pos%width!==0 && solve(pos-1) ||
-            pos>width && solve(pos-width)
-            ;
+            pos>width && solve(pos-width);
     }
     const width = maze.indexOf("\n");
     maze = maze.replace(/\n/g,"");
