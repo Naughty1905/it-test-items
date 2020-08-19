@@ -1,6 +1,6 @@
-const ff = function (num) {
+const funcF = function (num) {
     if (num <= 1) {
         return num;
     }
-    return ff(num - 1) + ff(num - 2);
+    return funcF(num - 1) + funcF(num - 2);
 }
