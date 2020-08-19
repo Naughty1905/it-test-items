@@ -1,12 +1,11 @@
 const twoSumPrimary = function (nums, target) {
-   let hash = {};
-   for(let i=0; i < nums.length; i++) {
-     if(hash[target - nums[i]] >= 0) {
-       return [i, hash[target - nums[i]]];
-     }
-     hash[nums[i]] = i;
-     console.log(hash);
-   }
+    let hash = {};
+    for (let i = 0; i < nums.length; i++) {
+        if (hash[target - nums[i]] >= 0) {
+            return [i, hash[target - nums[i]]];
+        }
+        hash[nums[i]] = i;
+    }
 }
 
 const twoSum = function (nums, target) {
