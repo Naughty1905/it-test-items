@@ -8,7 +8,7 @@ class Subj {
     }
 }
 
-class BehaviorSubj {
+class BehaviorSubject {
     subscribers = [];
     init;
     constructor(init) {
